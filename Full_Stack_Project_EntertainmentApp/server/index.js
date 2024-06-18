@@ -29,7 +29,7 @@
 //   process.exit(1);
 // });
 
-// //test
+// //testimport express from "express";
 import express from "express";
 import cookieParser from "cookie-parser";
 import cors from "cors";
@@ -49,7 +49,7 @@ app.use("/api/v1", routes);
 const port = process.env.PORT || 5000;
 
 // Connect to MongoDB
-mongoose.connect(process.env.MONGODB_URL, { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect(process.env.MONGODB_URL)
   .then(() => {
     console.log("Mongodb connected");
   })
