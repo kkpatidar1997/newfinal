@@ -1,10 +1,9 @@
 {
     "version": 2,
     "builds": [
-      { "src": "Full_Stack_Project_EntertainmentApp/server/index.js", "use": "@vercel/node" }
+      { "src": "server/index.js", "use": "@vercel/node" }
     ],
     "routes": [
-      { "src": "/api/(.*)", "dest": "Full_Stack_Project_EntertainmentApp/server/index.js" }
+      { "src": "/api/(.*)", "dest": "server/index.js" }
     ]
   }
-  

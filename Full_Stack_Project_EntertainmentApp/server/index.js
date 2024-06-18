@@ -28,6 +28,8 @@ mongoose.connect(process.env.MONGODB_URL).then(() => {
   console.log({ err });
   process.exit(1);
 });
+// // Export the app for Vercel
+export default app ;
 
 // // //test
 // import express from "express";
@@ -59,4 +61,4 @@ mongoose.connect(process.env.MONGODB_URL).then(() => {
 //   });
 
 // // Export the app for Vercel
- export default app;
+ //export default app;
