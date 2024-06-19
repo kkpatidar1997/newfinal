@@ -1,7 +1,7 @@
 import axios from "axios";
 import queryString from "query-string";
+const baseURL = "https://newfinal-5.onrender.com/api/v1/";
 
-const baseURL = "http://localhost:5000/api/v1/";
 //const baseURL = "https://newfinal-vtfa-nqrvhbw9t-kkpatidar1997s-projects.vercel.app/api/v1/";
 
 const privateClient = axios.create({
