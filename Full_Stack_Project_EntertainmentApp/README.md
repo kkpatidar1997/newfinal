@@ -21,7 +21,7 @@ Entertainment App is a web application that offers users the opportunity to expl
 
 
 Visit the website:
-https://full-stack-project-entertainment-app.vercel.app/
+https://kkentertainment.netlify.app/
 
 Features
 Movie Catalog: Explore an extensive collection of movies with in-depth details.
@@ -42,7 +42,7 @@ Getting Started
 Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
 
 Clone the repository:
-https://github.com/sushantkumbhar99/Full_Stack_Project_EntertainmentApp.git
+https://github.com/kkpatidar1997/newfinal.git
 
  
 Install dependencies: 
